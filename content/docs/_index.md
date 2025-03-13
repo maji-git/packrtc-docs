@@ -1,0 +1,3 @@
+Redirecting...
+
+{{< redirect "start/introduction" >}}
