@@ -1,1 +1,1 @@
-# Documentation for MultiPlay Core
+# Documentation for PackRTC
