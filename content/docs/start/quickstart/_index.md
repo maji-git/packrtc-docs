@@ -11,7 +11,13 @@ title: "Quickstart"
 
 ![Project Settings -> Plugins](image.png)
 
-3. In your multiplayer script, host by using this following snippet (adjust as needed)
+3. Set `PackRTC.game_channel` variable to your own unique name (like your game name, hashes)
+
+```gdscript
+PackRTC.game_channel = "the_game_name"
+```
+
+4. In your multiplayer script, host by using this following snippet (adjust as needed)
 
 ```gdscript
 var session = await PackRTC.host()
@@ -23,7 +29,7 @@ else:
 	print("Error: ", session)
 ```
 
-4. For joining, use `PackRTC.join(code)`
+5. For joining, use `PackRTC.join(code)`
 
 ```gdscript
 var session = await PackRTC.join(code)
